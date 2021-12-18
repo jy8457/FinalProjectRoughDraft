@@ -20,10 +20,10 @@
 <form:form commandName="boardVO" method="post" action="../editok">
 <form:hidden path="seq"/>
 <table id="edit">
-<tr><td >Title</td><td><input type = "text" name="title" /></td></tr>
-<tr><td>Genre</td><td><input type="text" name="genre" /></td></tr>
-<tr><td>Category</td><td><input type="text" name="category"/></td></tr>
-<tr><td>Release_date</td><td><input type="text" name="releasedate"/></td></tr>
+<tr><td >Title</td><td><input type = "text" name="title" value = "<%=u.getTitle()%>" /></td></tr>
+<tr><td>Genre</td><td><input type="text" name="genre" value = "<%=u.getGenre()%>"/></td></tr>
+<tr><td>Category</td><td><input type="text" name="category"value = "<%=u.getCategory()%>"/></td></tr>
+<tr><td>Release_date</td><td><input type="text" name="releasedate"value = "<%=u.getReleasedate()%>"/></td></tr>
 <tr><td>Country</td><td><select name="country">
 <option value="American"> American </option>
 <option value="British"> British </option>
@@ -31,7 +31,7 @@
 <option value="Korean"> Korean </option>
 
 </select></td></tr>
-<tr><td>Rate:</td><td><input type="text" name="point" /></td></tr>
+<tr><td>Rate:</td><td><input type="text" name="point" value = "<%=u.getPoint()%>"/></td></tr>
 
 </table>
 <button type="button" onclick="history.back()">메뉴보기</button>
