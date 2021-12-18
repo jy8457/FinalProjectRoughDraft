@@ -29,9 +29,11 @@
 <option value="British"> British </option>
 <option value="Indian"> Indian </option>
 <option value="Korean"> Korean </option>
+<option value="Japanese"> Japanese </option>
+<option value="Others"> Others </option>
 
 </select></td></tr>
-<tr><td>Rate:</td><td><input type="text" name="point" value = "<%=u.getPoint()%>"/></td></tr>
+<tr><td>Rate:</td><td><input type="text" name="point" value = "<%=u.getCnt()%>"/></td></tr>
 
 </table>
 <button type="button" onclick="history.back()">메뉴보기</button>
