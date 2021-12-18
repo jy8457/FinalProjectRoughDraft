@@ -10,8 +10,10 @@
 			update movie
 			set title=#{title}, genre=#{genre}, category=#{category}, releasedate=#{releasedate}, country=#{country}, point=#{point}  where seq=#{seq}
 	</update>
-		<delete id="deleteBoard">
-			delete from movie where seq=#{seq}
+		<delete id="delete" parameterType="int">
+			delete
+					from movie
+			where	seq=#{seq}
 		</delete>
 		<select id="getBoard" resultType="board">
 			select * from movie where seq=#{seq}

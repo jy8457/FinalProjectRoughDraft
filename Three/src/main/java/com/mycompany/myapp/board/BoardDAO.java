@@ -23,9 +23,10 @@ public class BoardDAO {
 		int result = sqlSession.insert("Board.updateBoard",vo);
 		return result;
 	}
-	public int deleteBoard(int seq) {
-		int result = sqlSession.insert("Board.updateBoard",seq);
-		return result;
+	public void delete(int seq) {
+	//	int result = sqlSession.insert("Board.deleteBoard",seq);
+		sqlSession.delete("Board.delete",seq);
+		
 	}
 	public BoardVO getBoard(int seq){
 		BoardVO one = sqlSession.selectOne("Board.getBoard",seq);

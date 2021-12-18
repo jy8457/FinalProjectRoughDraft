@@ -37,10 +37,10 @@ button{
 }</style>
 
 <script>
-	function delete_ok(id){
-		var a = confirm("정말로 삭제하겠습니까?");
-		if(a) location.href='deletepost.jsp?id=' + id;
-	}
+   function delete_ok(id){
+      var a = confirm("정말로 삭제하겠습니까?");
+      if(a) location.href='deletepost.jsp?id=' + id;
+   }
 </script>
 </head>
 <body bgcolor=#000000;>
@@ -68,11 +68,13 @@ button{
       <td>${u.country}</td>
       <td>${u.point}</td>
       <td>${u.regdate}</td>
-      <td><a href="editform/${u.seq}">글 수정 </a></td>
-      <td><a href="javascript:delete_ok('${u.seq}')">글 삭제 </a></td>
+      <td><a href="edit/${u.seq}">글 수정 </a></td>
+       <td><a href="/board/delete?seq=${u.seq}"role="button">글 삭제 </a></td>
    </tr>
 </c:forEach>
 </table>   
 <br/><button type="button" onclick="location.href='add'"> 새글쓰기  </button>
 </body>
 </html>
+
+
