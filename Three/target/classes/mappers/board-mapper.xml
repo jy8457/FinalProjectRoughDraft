@@ -2,21 +2,21 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="Board">
 	<insert id= "insertBoard">
-		insert into BOARD (title,genre,category,releasedate,country,point)
+		insert into movie (title,genre,category,releasedate,country,point)
 		values
 		(#{title},#{genre},#{category},#{releasedate},#{country},#{point})
 	</insert>
 	<update id="updateBoard">
-			update BOARD
-			set title=#{title}, content=#{content}, writer=#{writer} where seq=#{seq}
+			update movie
+			set title=#{title}, genre=#{genre}, category=#{category}, releasedate=#{releasedate}, country=#{country}, point=#{point}  where seq=#{seq}
 	</update>
 		<delete id="deleteBoard">
-			delete from BOARD where seq=#{seq}
+			delete from movie where seq=#{seq}
 		</delete>
 		<select id="getBoard" resultType="board">
-			select * from BOARD where seq=#{seq}
+			select * from movie where seq=#{seq}
 		</select>
 		<select id="getBoardList" resultType="board">
-			select * from BOARD order by seq desc
+			select * from movie order by seq desc
 		</select>
 </mapper>

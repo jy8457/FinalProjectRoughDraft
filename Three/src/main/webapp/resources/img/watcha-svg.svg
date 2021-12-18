@@ -1,0 +1,21 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151 29" width="151" height="29">
+	<title>watcha-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.t0 { font-size: 24px;fill: #fd0b5b;font-weight: 400;font-family: "Anton-Regular", "Anton" } 
+		.s1 { fill: #292a32 } 
+	</style>
+	<g id="Layer">
+		<text id="" style="transform: matrix(1,0,0,1,37,17)" >
+		</text>
+		<text id="JooChan" style="transform: matrix(1.156,0,0,1.276,0,28)" >
+			<tspan x="0" y="0" class="t0">J</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0">C</tspan><tspan  y="0" class="t0">h</tspan><tspan  y="0" class="t0">a</tspan><tspan  y="0" class="t0">n
+</tspan>
+		</text>
+		<path id="Layer" fill-rule="evenodd" class="s1" d="m130.99 9.1c0.52 1.13 0.65 2.18 0.65 7.81c0 5.67-0.13 6.72-0.65 7.85c-0.86 1.92-2.63 2.97-5.31 2.97h-4.74v-21.59h4.74c2.67 0 4.44 1.05 5.31 2.97zm-2.2 7.85c0-5.23-0.09-5.89-0.43-6.63c-0.43-1.05-1.34-1.61-2.93-1.61h-1.68v16.44h1.68c1.59 0 2.5-0.57 2.93-1.61c0.34-0.74 0.43-1.4 0.43-6.59z" />
+		<path id="Layer" fill-rule="evenodd" class="s1" d="m151 27.72h-2.76l-0.73-4.36h-5.18l-0.69 4.36h-2.8l3.97-21.59h4.27l3.92 21.59zm-3.92-6.8l-2.11-12.52h-0.09l-2.11 12.52h4.31z" />
+		<path id="Layer" class="s1" d="m136.81 27.72h-2.8v-21.59h2.8v21.59z" />
+		<path id="Layer" fill-rule="evenodd" class="s1" d="m108.09 8.14c0.3 0.7 0.39 1.35 0.39 3.75c0 2.4-0.09 3.01-0.39 3.79c-0.6 1.35-1.98 1.96-4.14 1.96h-2.33v10.07h-2.76v-21.59h5.09c2.16 0 3.54 0.61 4.14 2.01zm-2.41 3.66c0-1.7-0.04-1.92-0.22-2.31c-0.3-0.74-1.03-0.96-2.2-0.96h-1.64v6.54h1.64c1.16 0 1.9-0.17 2.2-0.96c0.17-0.35 0.22-0.65 0.22-2.31z" />
+		<path id="Layer" class="s1" d="m110.51 6.14h7.85v2.57h-5.05v6.28h4.92v2.57h-4.92v7.59h5.05v2.57h-7.85v-21.59z" />
+	</g>
+</svg>

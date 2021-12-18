@@ -68,7 +68,7 @@ button{
       <td>${u.country}</td>
       <td>${u.point}</td>
       <td>${u.regdate}</td>
-      <td><a href="editform/${u.seq}">글 수정 </a></td>
+      <td><a href="editform">글 수정 </a></td>
       <td><a href="javascript:delete_ok('${u.seq}')">글 삭제 </a></td>
    </tr>
 </c:forEach>
